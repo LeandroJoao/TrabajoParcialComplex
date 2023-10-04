@@ -1,0 +1,3 @@
+ma,for,profe,complex,nutria
+manzana,polo,patas,me,escuchan
+pantalla,parlante,canaval,pizarra,azucar
