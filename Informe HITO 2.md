@@ -9,7 +9,7 @@ Quintana Noa, Jimena Alexsandra|U20201F576|
 
 # INTRODUCCIÓN 
 El presente informe tiene como objetivo presentar el desarrollo de un proyecto de una sopa de letras implementada en Python.
-En este proyecto, se ha utilizado una combinación de dos algoritmos para buscar las palabras en la sopa de letras: el algoritmo de `fuerza bruta` y el algoritmo de `backtracking`. Estos algoritmos permiten explorar todas las posibles combinaciones de letras y direcciones en la sopa de letras de manera eficiente y determinar si una palabra se encuentra presente en ella
+En este proyecto, se ha utilizado una combinación de dos algoritmos para buscar las palabras en la sopa de letras: el algoritmo de `fuerza bruta`, el algoritmo de `backtracking` y `Programación Dinámica`. Estos algoritmos permiten explorar todas las posibles combinaciones de letras y direcciones en la sopa de letras de manera eficiente y determinar si una palabra se encuentra presente en ella
 
 # DESCRIPCIÓN DEL PROBLEMA:
 
@@ -29,10 +29,12 @@ Este proyecto busca mantener al jugador enfocado en el juego, otorgandole una ay
 
 # PROPUESTA
 
-La propuesta del equipo tiene como objetivo realizar una sopa de letras la cual se resuelva de forma automática. Las técnicas a emplear serán los algoritmos `Fuerza Bruta` y `Backtracking`.
+La propuesta del equipo tiene como objetivo realizar una sopa de letras la cual se resuelva de forma automática. Las técnicas a emplear serán los algoritmos `Fuerza Bruta`, `Backtracking` y `Programación Dinámica`.
 El programa recibira un dataset que son las palabras a encontrar en la sopa de letras. Primero, separará las palabras y las almaceranará en una lista para luego separarlas por letra.
 
 Para el desarrollo del juego, el algoritmo de backtracking se utiliza para realizar una búsqueda recursiva en la sopa de letras. La función verifica si la letra actual coincide con la primera letra de la palabra que se está buscando. Si es así, marca la letra como visitada y realiza una llamada recursiva para buscar el resto de la palabra en una dirección específica. Si la búsqueda recursiva es exitosa, se devuelve True, lo que indica que la palabra se ha encontrado. Si no es exitosa, se deshace el cambio y se continúa probando en otras direcciones.
+
+Por otro lado, la inclusión de programación dinámica mejorar aún más el rendimiento y la eficiencia del juego, especialmente en tableros de sopa de letras más grandes o con un gran número de palabras a buscar. El uso de la programación dinámica se centra en el almacenamiento de resultados intermedios para evitar recálculos innecesarios. Esto acelerará el proceso y hará que la búsqueda de palabras en la sopa de letras sea más eficiente, lo que es beneficioso cuando se trata de resolver tableros más grandes o con muchas palabras.
 
 # DESCRIPCIÓN DEL CONJUNTO DE DATOS (Dataset)
 
@@ -46,9 +48,13 @@ Al crear un grafo que simula la búsqueda de palabras en la sopa de letras, se o
 
 # DISEÑO DE LA APLICACIÓN
 
-La propuesta planteada consiste en un juego de escritorio. Para ello, se hará uso de `Pyside` el cual, es una biblioteca de enlace de Python para el kit de herramientas de interfaz gráfica de usuario (GUI) multiplataforma Qt. PySide permite a los desarrolladores de Python crear aplicaciones con interfaces gráficas utilizando las funcionalidades y componentes proporcionados por Qt. 
-Por otro lado, en cuanto a al desarrollo del 
+Para el desarrollo del juego de sopa de letras, se ha propuesto utilizar una combinación de tecnologías y bibliotecas, como Python y PyQt, que permitirán la creación de una interfaz gráfica atractiva y funcional. PyQt es una biblioteca que ofrece una amplia variedad de herramientas para diseñar interfaces de usuario interactivas en Python, lo que resulta perfecto para crear la experiencia de juego.
 
+El juego de sopa de letras se centrará en la generación aleatoria de tableros con letras dispuestas en una cuadrícula y un conjunto de palabras que los jugadores deben encontrar. La interfaz de usuario permitirá a los jugadores seleccionar letras y formar palabras haciendo clic y arrastrando, y se proporcionarán pistas o un temporizador para añadir emoción al juego.
+
+El juego también incluirá características como la posibilidad de elegir diferentes niveles de dificultad, categorías de palabras y, posiblemente, la opción de competir contra otros jugadores en línea.
+
+En resumen, la propuesta busca crear un juego de sopa de letras atractivo y entretenido, utilizando las capacidades de PyQt y Python para brindar una experiencia de juego interactiva y desafiante. La combinación de una interfaz gráfica atractiva y la mecánica del juego de sopa de letras ofrecerá a los jugadores una experiencia divertida y educativa.
 
 
 
