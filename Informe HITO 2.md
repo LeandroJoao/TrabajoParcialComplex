@@ -3,8 +3,8 @@
 
 INTEGRANTES | CODIGO| 
 -|-|
-Carbajal Rojas, Andres Eduardo|   
-Joao Rangel, Leandro| | 
+Carbajal Rojas, Andres Eduardo|U202218811   
+Joao Rangel, Leandro|U202011073 | 
 Quintana Noa, Jimena Alexsandra|U20201F576|
 
 # INTRODUCCIÓN 
