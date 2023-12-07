@@ -1,0 +1,3 @@
+agua,pollo,zapato,teclado,nutria
+manzana,polo,patas,camiseta,lompa
+pantalla,parlante,medias,pizarra,azucar
